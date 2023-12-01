@@ -1,0 +1,171 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.tagline {
+text-align: center;
+}
+.sections {
+    display: flex;
+}
+.why {
+    text-align: center;
+    background-color: #7db8df;
+}
+.sub_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sub_section > div {
+    width: calc(33.33% - 10px); 
+    margin-bottom: 10px;
+}
+
+.intro {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+};
+
+.ab {
+    width: 60%;
+}
+
+.pics {
+    width: 40%;
+    text-align: right;
+}
+
+.pics img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.how {
+    padding: 20px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 10;
+    background-color: #7db8df;
+}
+.ho{
+    text-align: center;
+}
+.pic2 {
+    width: 40%;
+    text-align: left;
+}
+
+.pic2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ho {
+    width: 60%;
+    text-align: right;
+}
+
+.get{
+    background-color: #7db8df;
+}
+
+.What, .get {
+    text-align: center;
+   
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.whole {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.sections h4 {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sections h4:hover {
+    color: #ecf0f1;
+}
+
+.tagline {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.tagline h3 {
+    font-size: 3em;
+    color: #333;
+}
+
+input,
+button {
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#submitButton {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submitButton:hover {
+    background-color: #2980b9;
+}
+
+/* Add styles for other sections */
+/* ... */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+
